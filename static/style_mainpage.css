@@ -1,0 +1,143 @@
+html {
+    background-color: #1E1E24;
+    overflow-y: scroll; 
+    overflow-x:hidden;
+} 
+body {
+    margin: 0;
+}
+main {
+    display: flex;
+    height: 100%;
+}
+.workout_plan{
+    font-size: 21px!important;
+    text-align: start;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+.button{
+    height: 30px;
+    width: 90px;
+    border-radius: 20px;
+    background-color:#F7F7F2;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.main_left{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.main_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {height: 90vh;}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.main_text {
+    color: #F7F7F2;
+    font-family: 'Sono', sans-serif;
+}
+.nav_container { 
+    display: flex;
+    justify-content: center;
+}
+.nav {
+    width: 100%;
+    display: inline-flex;
+    margin-top: 1em;
+    
+}
+
+.nav_text {
+    text-decoration: none;
+    border: none;
+    background-color: #1E1E24;
+    font-family: 'Sono', sans-serif;
+    color: gray;
+    padding: 0px;
+    padding-right: 9px;
+    text-align: start;
+}
+.name {
+    color: #F7F7F2;
+    padding-right: 0px;
+}
+.nav_text:hover {
+    color: #F7F7F2;
+}
+.test {
+    visibility: hidden;
+}
+.intro_text {
+    font-size: 10em;
+    margin: 0!important;
+    position: absolute;
+    align-content: center;
+    height: 100%;
+    }
+.info_text_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15%;
+}
+.self_info_container{
+    display: none;
+    width: 100%;
+}
+@media screen and (min-width: 601px) {
+    .nav_text {
+        font-size: 15px!important;
+    }
+    .main_text{
+        font-size: 25px!important;
+        width: 100% ;
+        margin: 0;
+        text-align: center;
+    }
+    .name {
+        font-size: 20px!important;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less*/
+  @media screen and (max-width: 600px) {
+    .col-3 {
+        display: none;
+    }
+    .nav_text {
+        font-size: 15px!important;
+        display: none;
+    }
+    .main_text{
+        font-size: 25px!important;
+        width: 10em;
+        margin: 0;
+        text-align: center;
+    }
+    .name {
+        font-size: 20px!important;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+
+  @keyframes hello_anim{
+    
+  }
+  

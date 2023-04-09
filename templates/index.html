@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style_mainpage.css')}}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sono&display=swap" rel="stylesheet">
+    
+    <title>Personal site</title>
+</head>
+<body>
+    <nav class="col-12  nav_container_main">
+        <p class="main_text intro_text" id="hellotxt" >Hello!</p>
+        <div class="nav" >
+            <div class="nav_container col-3">
+                <button onmouseover="edit_effect(this)" onmouseout="clear_edit_effect(this)" class="nav_text" id="Portfolio" ></button>
+                <button onmouseover="edit_effect(this)" onmouseout="clear_edit_effect(this)" class="nav_text" id="About" ></button>
+            </div>
+            <div class="nav_container name col-6">
+                <button class="name nav_text" id="Name"></button>
+            </div>  
+            <div class="nav_container nav_left col-3">
+                <button onmouseover="edit_effect(this)" onmouseout="clear_edit_effect(this)" class="nav_text" id="Shop" ></button>
+                <button onmouseover="edit_effect(this)" onmouseout="clear_edit_effect(this)" class="nav_text" id="Contact" ></button>
+                <button onmouseover="edit_effect(this)" onmouseout="clear_edit_effect(this)" class="nav_text" id="Cart"></button>
+            </div>
+        </div>
+    </nav>
+    <main class="self_info_container" id="self_info_container">
+        <div class="main_left col-6" id="question_div">
+            <p id="question" class="main_text"></p>
+        </div>
+        <div class="main_right col-6" id="btns_div"></div>
+        
+
+    </main>
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+    
+</body>
+</html>
