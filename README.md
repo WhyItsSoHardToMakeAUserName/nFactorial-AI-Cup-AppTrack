@@ -1,9 +1,9 @@
 # nFactorial-AI-Cup-AppTrack
 
-## < Your Name >
+## < Almas Kim >
 
 
-## < Your App's Name >
+## < GETFIT >
 
 
 ## Typeform to submit:
